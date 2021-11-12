@@ -1,0 +1,17 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Node native bindings hello world!",
+  "license": "MIT",
+  "author": "DaCurse",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "pretest": "node-gyp rebuild",
+    "test": "node index.js"
+  },
+  "gypfile": true,
+  "dependencies": {
+    "node-gyp": "^8.4.0"
+  }
+}
